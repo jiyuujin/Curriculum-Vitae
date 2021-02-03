@@ -29,42 +29,58 @@
 ### スキル
 - HTML (W3C Conformance)
 - CSS (CSS3)
-  - SCSS, Sass, PostCSS, stylus
+  - SCSS, Sass, PostCSS and stylus
   - BEM, FLOCSS
   - Bootstrap, Bootstrap-Vue, Element UI, Tailwind CSS, Vuetify and Vuesax
 - JavaScript
-  - Vue.js, React, Angular[/.js], jQuery
+  - Vue, Nuxt.js, React, Next.js and Angular
+  - Nest.js, Express
   - TypeScript
   - Node.js
+  - jQuery, AngularJS
 - Scala
   - Play
 - PHP
   - Laravel, CakePHP
 - Native App
   - iOS, Android, Flutter
+- GraphQL
+  - Apollo Client, Gatsby.js
+- Authentication
+  - Auth0, Firebase Authentication
+- Docker
+  - docker-compose
 - AWS
-  - ACM, Amplify, AppSync, Cloudfront, EC2, IAM, Lambda, Route53, SNS and S3
+  - Amplify, AppSync, Cloudfront, ECS, Fargate, Lambda and S3
+- GCP
+  - Firestore, Realtime Database
+  - Cloud Run, Cloud APIs
+  - Google Apps Script, Clasp
 - Deploy
-  - Netlify (JAMStack), Heroku
+  - Vercel, Netlify, Amplify Console, Firebase Hosting and Heroku
 
 ### プラグイン
+- General
+  - @nekohack/normalize.css
+    - 自身のデザインシステムを築くべく Gulp を使って Base CSS としてコンパイル。
+  - @nekohack/footer-ui (Web Components)
+    - Cookie 利用承諾を確認するための UI プラグインを製作。
 - Vue.js
-  - `v-single-picker`
-    - https://www.npmjs.com/package/v-single-picker
-  - `v-range-picker`
-    - https://www.npmjs.com/package/v-range-picker
-  - `@nekohack/j-stylebook`
-    - https://www.npmjs.com/package/@nekohack/j-stylebook
+  - vue-single-picker
+    - 日付を選択するための UI プラグインを製作。
+  - vue-datetimerange-picker
+    - 開始日と終了日を選択するための UI プラグインを製作。
+  - @nekohack/j-stylebook
+    - Vuetify に代表される UI フレームワークを自身で製作。
+- React
+  - nekohack-ui
+    - Chakra UI に代表される UI フレームワークを自身で製作。
 - ESLint
-  - `@nekohack/eslint-config`
-    - https://www.npmjs.com/package/@nekohack/eslint-config
-  - `@nekohack/eslint-config-vue`
-    - https://www.npmjs.com/package/@nekohack/eslint-config-vue
-  - `@nekohack/eslint-config-react`
-    - https://www.npmjs.com/package/@nekohack/eslint-config-react
+  - @nekohack/eslint-config
+  - @nekohack/eslint-config-vue
+  - @nekohack/eslint-config-react
 - StyleLint
-  - `@nekohack/stylelint-config`
-    - https://www.npmjs.com/package/@nekohack/stylelint-config
+  - @nekohack/stylelint-config
 
 ### Studying
 - DevOps
