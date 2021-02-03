@@ -140,15 +140,36 @@
 -->
 
 ## プライベートワーク
-- [プロフィールサイト] `Yuma Kitamura - Web Developer`
-  - [https://github.com/jiyuujin/yuukit.me](https://github.com/jiyuujin/yuukit.me)
-  - Gatsby.js + AWS CDK (S3 / Cloudfront)
-- [技術ブログ] `Web猫ブログ`
-  - [https://github.com/jiyuujin/webneko-blog](https://github.com/jiyuujin/webneko-blog)
-  - Nuxt.js + Contentful + AWS Fargate
-- [管理画面] 自分のための管理画面 `Admin`
-  - [https://github.com/jiyuujin/admin](https://github.com/jiyuujin/admin)
-  - Nuxt.js + Firestore + Netlify
+- `Yuma Kitamura - Web Developer`
+  - コミュニティ運営に注力する中で自身は何たる人物か紹介する場面が増え 2020 年 02 月プロフィールサイトの製作を開始した
+  - https://github.com/jiyuujin/yuukit.me
+  - 主な技術スタック
+    - Gatsby.js (SSG)
+    - Stripe + AWS Lambda
+- `Web猫ブログ`
+  - 2018 年 09 月お誘いを受け登壇に初めて挑戦、その内容をもっと詳しく書いて知見を共有したいと思い技術ブログの製作を開始した
+  - https://github.com/jiyuujin/webneko-blog
+  - 主な技術スタック
+    - Nuxt.js (SSR)
+    - Contentful
+- `Routine | Daily`
+  - はてなブックマークと Slack のリアクション機能を使って日々情報を収集している
+  - https://github.com/jiyuujin/routine
+  - 主な技術スタック
+    - Next.js (SSG)
+    - isomorphic-unfetch
+- `COVID19 (新型コロナウイルス感染症について)`
+  - 厚生労働省のオープンデータを使って日々 COVID19 の現況可視化を行っている
+  - https://github.com/jiyuujin/covid19
+  - 主な技術スタック
+    - Nuxt.js (SSG)
+    - @nuxt/http (ky-universal)
+- `Admin`
+  - 自身のネイティヴアプリ (アプリは Flutter を使用している) 開発を裏側で支えるためマスタデータの管理を行っている
+  - https://github.com/jiyuujin/admin
+  - 主な技術スタック
+    - Nuxt.js (SSR)
+    - Firestore
 
 ### その他成果物
 https://scrapbox.io/nekohack
