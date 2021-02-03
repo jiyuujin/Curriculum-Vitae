@@ -165,7 +165,7 @@
     - Nuxt.js (SSG)
     - @nuxt/http (ky-universal)
 - `Admin`
-  - 自身のネイティヴアプリ (アプリは Flutter を使用している) 開発を裏側で支えるためマスタデータの管理を行っている
+  - 自身のネイティヴアプリ (アプリは Flutter を使用している) 開発を裏側で支えるためマスタデータを管理する
   - https://github.com/jiyuujin/admin
   - 主な技術スタック
     - Nuxt.js (SSR)
