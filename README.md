@@ -51,7 +51,7 @@
 - Docker
   - docker-compose
 - AWS
-  - ACM, Amplify, AppSync, Cloudfront, EC2, ECS, Fargate, IAM, Lambda, Route53, SNS and S3
+  - Amplify, AppSync, Cloudfront, ECS, Fargate, Lambda and S3
 - GCP
   - Firestore, Realtime Database
   - Cloud Run, Cloud APIs
