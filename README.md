@@ -159,31 +159,38 @@
 ## プライベートワーク
 - `Yuma Kitamura - Web Developer`
   - コミュニティ運営に注力する中で自身は何たる人物か紹介する場面が増え 2020 年 02 月プロフィールサイトの製作を開始した
-  - https://github.com/jiyuujin/yuukit.me
   - 主な技術スタック
     - Gatsby.js (SSG)
     - Stripe + AWS Lambda
+    - AWS S3 + Cloudfront
 - `Web猫ブログ`
   - 2018 年 09 月お誘いを受け登壇に初めて挑戦、その内容をもっと詳しく書いて知見を共有したいと思い技術ブログの製作を開始した
-  - https://github.com/jiyuujin/webneko-blog
   - 主な技術スタック
     - Nuxt.js (SSR)
     - Contentful
+    - Circle CI
+    - AWS ECS / Fargate
 - `Routine | Daily`
-  - はてなブックマークと Slack のリアクション機能を使って日々情報を収集している
-  - https://github.com/jiyuujin/routine
+  - はてなブックマークと Slack のリアクション機能を使って情報収集の役に立つ Web サイトを製作・運用している
   - 主な技術スタック
     - Next.js (SSG)
-    - isomorphic-unfetch
+    - Google Apps Script
+    - Cloud Run
+- `Web Performance`
+  - 外部公開済で自身の Web プロダクトに対し PageSpeed Insights v5 の観点から現況可視化を行う Web サイトを製作・運用している
+  - 主な技術スタック
+    - Next.js (SSG)
+    - PageSpeed Insights v5
+    - Google Apps Script
+    - Cloud Run
 - `COVID19 (新型コロナウイルス感染症について)`
-  - 厚生労働省のオープンデータを使って日々 COVID19 の現況可視化を行っている
-  - https://github.com/jiyuujin/covid19
+  - 厚生労働省のオープンデータをスクレイピングして日々 COVID19 の現況可視化を行う Web サイトを製作・運用している
   - 主な技術スタック
     - Nuxt.js (SSG)
-    - @nuxt/http (ky-universal)
+    - Google Apps Script
+    - Cloud Run
 - `Admin`
-  - 自身のネイティヴアプリ (アプリは Flutter を使用している) 開発を裏側で支えるためマスタデータを管理する
-  - https://github.com/jiyuujin/admin
+  - 自身が製作を進めるネイティヴアプリ (で Flutter を使っている) 開発を裏側で支えるためマスタデータを管理する Web サイトを製作・運用している
   - 主な技術スタック
     - Nuxt.js (SSR)
     - Firestore
