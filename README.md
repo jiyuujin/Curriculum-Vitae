@@ -1,3 +1,11 @@
+---
+stylesheet: ./src/main.css
+body_class: markdown-body
+pdf_options:
+  format: A4
+  margin: 25mm 20mm
+---
+
 # 職務経歴書
 
 2021 年 02 月 25 日更新。
