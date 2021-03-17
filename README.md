@@ -13,7 +13,7 @@ pdf_options:
 ## 基本情報
 |key|value|
 |---|-----|
-|Name|北村　勇磨 (Yuma Kitamura)|
+|Name|<ruby><rb>北村　勇磨<rb><rt>きたむら　ゆうま</rt></ruby>|
 |Profile|[Web Developer - Yuma Kitamura](https://yuukit.me/)|
 |Blog|[Web猫ブログ](https://webneko.dev/)|
 |Wantedly|[Yuma Kitamura](https://www.wantedly.com/users/101311859)|
