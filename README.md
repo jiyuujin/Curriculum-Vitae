@@ -8,7 +8,7 @@ pdf_options:
 
 # 職務経歴書
 
-2021 年 03 月 26 日更新。
+2021 年 04 月 13 日更新。
 
 ## 基本情報
 |key|value|
@@ -113,6 +113,11 @@ pdf_options:
 寄稿はありません。
 
 ### 登壇、LT
+
+#### DevRel Online #3 / 2021.04.12
+- コミュニティハンズオンにおける DevRel のすゝめ
+  - Flutter 日本ユーザグループ (大阪) におけるオンラインハンズオンの取り組みを話した。
+  - https://webneko.dev/posts/challenge-the-community-handson-2021
 
 #### VR 勉強会 #3 / 2020.06.21
 - Slack を中心に世界は廻っている
