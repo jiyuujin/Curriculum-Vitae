@@ -8,13 +8,13 @@ pdf_options:
 
 # 職務経歴書
 
-2021 年 04 月 13 日更新。
+2021 年 05 月 26 日更新。
 
 ## 基本情報
 |key|value|
 |---|-----|
 |Name|<ruby><rb>北村　勇磨<rb><rt>きたむら　ゆうま</rt></ruby>|
-|Profile|[Web Developer - Yuma Kitamura](https://yuukit.me/)|
+|Profile|[Web Developer - Yuma Kitamura](https://yuma-kitamura.nekohack.me/)|
 |Blog|[Web猫ブログ](https://webneko.dev/)|
 |Wantedly|[Yuma Kitamura](https://www.wantedly.com/users/101311859)|
 |Twitter|[@jiyuujinlab](https://twitter.com/jiyuujinlab)|
