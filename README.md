@@ -170,46 +170,32 @@ pdf_options:
 -->
 
 ## プライベートワーク
-- `Yuma Kitamura - Web Developer`
-  - コミュニティ運営に注力する中で自身は何たる人物か紹介する場面が増え 2020 年 02 月プロフィールサイトの製作を開始した
-  - 主な技術スタック
-    - Gatsby.js (SSG)
-    - Stripe + AWS Lambda
-    - AWS S3 + Cloudfront
-- `Web猫ブログ`
-  - 2018 年 09 月お誘いを受け登壇に初めて挑戦、その内容をもっと詳しく書いて知見を共有したいと思い技術ブログの製作を開始した
-  - 主な技術スタック
-    - Nuxt.js (SSR)
-    - Contentful
-    - Circle CI
-    - AWS ECS / Fargate
-- `Routine | Daily`
-  - はてなブックマークと Slack のリアクション機能を使って情報収集の役に立つ Web サイトを製作・運用している
-  - 主な技術スタック
-    - Next.js (SSG)
-    - Google Apps Script
-    - Cloud Run
-- `Web Performance`
-  - 外部公開済で自身の Web プロダクトに対し PageSpeed Insights v5 の観点から現況可視化を行う Web サイトを製作・運用している
-  - 主な技術スタック
-    - Next.js (SSG)
-    - PageSpeed Insights v5
-    - Google Apps Script
-    - Cloud Run
-- `COVID19 (新型コロナウイルス感染症について)`
-  - 厚生労働省のオープンデータをスクレイピングして日々 COVID19 の現況可視化を行う Web サイトを製作・運用している
-  - 主な技術スタック
-    - Nuxt.js (SSG)
-    - Google Apps Script
-    - Cloud Run
-- `Admin`
-  - 自身が製作を進めるネイティヴアプリ (で Flutter を使っている) 開発を裏側で支えるためマスタデータを管理する Web サイトを製作・運用している
-  - 主な技術スタック
-    - Nuxt.js (SSR)
-    - Firestore
+
+### Yuma Kitamura - Web Developer
+プロフィールサイト。社外向けのコミュニティを運営する中で自身は何たる人物か紹介する場面が増え 2020 年 02 月プロフィールサイトの製作を開始した。
+
+#### 主な技術スタック
+- Gatsby.js (SSG)
+- Stripe + AWS Lambda
+- AWS S3 + Cloudfront
+
+### Web猫ブログ
+技術ブログ。2018 年 09 月お誘いを受け登壇に初めて挑戦して、その登壇した内容を文字情報に書き起こすため技術ブログの製作を開始した。
+
+#### 主な技術スタック
+- Nuxt.js (SSR)
+- CMS に Contentful を使う
+- ECS へ push するのに Circle CI を使う
+- Pull Request のチェックに Github Actions を使う
+- AWS ECS / Fargate
 
 ### その他成果物
-https://scrapbox.io/nekohack
+- Routine | Daily
+  - はてなブックマークと Slack のリアクション機能を使って情報収集の役に立つ Web サイト (Next.js 製) を製作・運用している。
+- Insight
+  - 自らが運営する各 Web サイトのパフォーマンスを日々定量的な数値として算出するため Web サイト (Next.js 製) を製作・運用している。ここでの数値は PageSpeed Insights v5 を採用しており Google Cloud Run を利用して毎日定期観測している。
+- COVID19 (新型コロナウィルス感染症について)
+  - 厚生労働省や首相官邸のオープンデータをスクレイピングして日々 COVID19 の現況可視化を行う Web サイト (Nuxt.js 製) を製作・運用している。
 
 ## 職務経歴
 
@@ -221,7 +207,7 @@ https://scrapbox.io/nekohack
 |事業内容|一般店舗向けの販売支援プラットフォーム POS の開発・提供|
 |従業員数|100 名|
 
-#### POSチームプロジェクトメンバー内訳
+#### POS チームプロジェクトメンバー内訳
 - プロダクトマネージャ 1 名
 - サーバーサイドエンジニア 3 名
 - フロントエンドエンジニア 1 名 (本人)
