@@ -69,27 +69,30 @@ pdf_options:
   - Vercel, Netlify, Amplify Console, Firebase Hosting and Heroku
 
 ### プラグイン
-- General
+- CSS
   - @nekohack/normalize.css
     - 自身のデザインシステムを築くべく Gulp を使って Base CSS としてコンパイル。
-  - @nekohack/footer-ui (Web Components)
+- JavaScript
+  - Vue.js
+    - vuerio
+      - UI フレームワークを自身で製作。
+    - vue-single-picker
+      - 日付を選択するための UI プラグインを製作。
+    - vue-datetimerange-picker
+      - 開始日と終了日を選択するための UI プラグインを製作。
+  - React
+    - nekohack-ui
+      - UI フレームワークを自身で製作。
+- Web Components
+  - @nekohack/footer-ui
     - Cookie 利用承諾を確認するための UI プラグインを製作。
-- Vue.js
-  - vue-single-picker
-    - 日付を選択するための UI プラグインを製作。
-  - vue-datetimerange-picker
-    - 開始日と終了日を選択するための UI プラグインを製作。
-  - @nekohack/j-stylebook
-    - Vuetify に代表される UI フレームワークを自身で製作。
-- React
-  - nekohack-ui
-    - Chakra UI に代表される UI フレームワークを自身で製作。
-- ESLint
-  - @nekohack/eslint-config
-  - @nekohack/eslint-config-vue
-  - @nekohack/eslint-config-react
-- StyleLint
-  - @nekohack/stylelint-config
+- Lint
+  - ESLint
+    - @nekohack/eslint-config
+    - @nekohack/eslint-config-vue
+    - @nekohack/eslint-config-react
+  - StyleLint
+    - @nekohack/stylelint-config
 
 ### Studying
 - DevOps
