@@ -117,6 +117,11 @@ pdf_options:
 
 ### 登壇、LT
 
+#### VS Code Conference JP 2021 プレイベント / 2021.11.01
+
+- VSCondeCon JP 2021 の内幕
+  - VS Code Meetup 史上初めて運用することとなった公式ウェブサイト製作に自ら携わった取り組みについて話した。
+
 #### DevRel Online #3 / 2021.04.12
 - コミュニティハンズオンにおける DevRel のすゝめ
   - Flutter 日本ユーザグループ (大阪) におけるオンラインハンズオンの取り組みを話した。
