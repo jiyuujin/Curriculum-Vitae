@@ -14,14 +14,15 @@ pdf_options:
 |key|value|
 |---|-----|
 |Name|<ruby><rb>北村　勇磨<rb><rt>きたむら　ゆうま</rt></ruby>|
-|Profile|[Web Developer - Yuma Kitamura](https://yuma-kitamura.nekohack.me/)|
-|Blog|[Web猫ブログ](https://webneko.dev/)|
-|Wantedly|[Yuma Kitamura](https://www.wantedly.com/users/101311859)|
-|Twitter|[@jiyuujinlab](https://twitter.com/jiyuujinlab)|
-|Github|[@jiyuujin](https://github.com/jiyuujin)|
-|Slides|[@jiyuujin](https://slides.com/jiyuujin)|
-|Connpass|[@jiyuujin](https://connpass.com/user/jiyuujin/)|
-|Scrapbox|[@nekohack](https://scrapbox.io/nekohack/) (非公開です)|
+|Profile|Web Developer - Yuma Kitamura<br>https://yuma-kitamura.nekohack.me/|
+|Blog|Web 猫ブログ<br>https://webneko.dev/|
+|Github|https://github.com/jiyuujin|
+|Gitlab|https://gitlab.com/yuma_kitamura|
+|BitBucket|https://bitbucket.org/yuma_kitamura|
+|Twitter|https://twitter.com/jiyuujinlab|
+|Wantedly|https://www.wantedly.com/users/101311859|
+|Connpass|https://connpass.com/user/jiyuujin/|
+|Slides|https://slides.com/jiyuujin|
 
 ### 長所・強み
 - エンジニア業務の他、設計やデザインなどにも理解・関心がある
