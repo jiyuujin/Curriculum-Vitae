@@ -114,7 +114,13 @@ pdf_options:
 - Zeplin
 
 ## 寄稿・スライドなど
-寄稿はありません。
+
+### 寄稿
+
+#### SOFTWARE DESIGN 技術評論社 2022/10 月号
+
+- VS Code の「Git & GitHub 連携で役立つ機能」
+  - VS Code Meetup オーガナイザーのご縁を機に初めて執筆することとなった取り組みです。
 
 ### 登壇、LT
 
