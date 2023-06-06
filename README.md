@@ -8,18 +8,19 @@ pdf_options:
 
 # 職務経歴書
 
-2022 年 10 月 05 日更新。
+2023 年 06 月 06 日更新。
 
 ## 基本情報
 |key|value|
 |---|-----|
 |Name|<ruby><rb>北村　勇磨<rb><rt>きたむら　ゆうま</rt></ruby>|
 |Profile|Web Developer - Yuma Kitamura<br>https://yuma-kitamura.nekohack.me/|
-|Blog|Web 猫ブログ<br>https://webneko.dev/|
-|Github|https://github.com/jiyuujin|
-|Gitlab|https://gitlab.com/yuma_kitamura|
+|Blog|個人ブログ<br>https://blog.nekohack.me/|
+|GitHub|https://github.com/jiyuujin|
+|GitLab|https://gitlab.com/yuma_kitamura|
 |BitBucket|https://bitbucket.org/yuma_kitamura|
 |Twitter|https://twitter.com/jiyuujinlab|
+|YOUTRUST|https://youtrust.jp/users/yuukit|
 |Wantedly|https://www.wantedly.com/users/101311859|
 |Connpass|https://connpass.com/user/jiyuujin/|
 |Slides|https://slides.com/jiyuujin|
@@ -41,14 +42,14 @@ pdf_options:
 - CSS (CSS3)
   - SCSS, Sass, PostCSS and stylus
   - BEM, FLOCSS
-  - Bootstrap, Bootstrap-Vue, Element UI, Tailwind CSS, Vuetify and Vuesax
+  - Bootstrap, Bootstrap-Vue, Element UI, Tailwind CSS, Pinceau, Vuetify and Vuesax
 - JavaScript
-  - Vue, Nuxt.js, React, Next.js and Angular
+  - React, Next.js, Vue, Nuxt.js, Svelte, SvelteKit and Angular
   - Nest.js, Express
   - TypeScript
   - Node.js
   - jQuery, AngularJS
-- Scala
+- Scala, Java
   - Play
 - PHP
   - Laravel, CakePHP
@@ -58,6 +59,9 @@ pdf_options:
   - Apollo Client, Gatsby.js
 - Authentication
   - Auth0, Firebase Authentication
+- Open APIs
+  - LINE front-end framework (LIFF)
+  - OpenAI (ChatGPT, Whisper)
 - Docker
   - docker-compose
 - AWS
@@ -67,45 +71,39 @@ pdf_options:
   - Cloud Run, Cloud APIs
   - Google Apps Script, Clasp
 - Deploy
-  - Vercel, Netlify, Amplify Console, Firebase Hosting and Heroku
+  - Vercel, Netlify, Amplify Console, Cloudflare Pages, Firebase Hosting and Heroku
 
 ### プラグイン
-- CSS
-  - @nekohack/normalize.css
-    - 自身のデザインシステムを築くべく Gulp を使って Base CSS としてコンパイル。
-- JavaScript
-  - Vue.js
-    - vuerio
-      - UI フレームワークを自身で製作。
-    - vue-single-picker
-      - 日付を選択するための UI プラグインを製作。
-    - vue-datetimerange-picker
-      - 開始日と終了日を選択するための UI プラグインを製作。
-  - React
-    - nekohack-ui
-      - UI フレームワークを自身で製作。
-- Web Components
-  - @nekohack/footer-ui
-    - Cookie 利用承諾を確認するための UI プラグインを製作。
-- Lint
-  - ESLint
-    - @nekohack/eslint-config
-    - @nekohack/eslint-config-vue
-    - @nekohack/eslint-config-react
-  - StyleLint
-    - @nekohack/stylelint-config
+npm プラグインとしてというよりかは、プロダクトの位置付け上、汎用化プラグインを積極的に製作していく方針に切り替えました。
+
+#### 具体的なプラグイン（例）
+- Nx の libs/shared 配下で、共通プラグイン化している
+  - 自身のプロフィールサイトのモノレポ化に伴い、ドメインロジックと共通コンポーネントを厳密に管理することを目指しました
 
 ### Studying
-- DevOps
-- PWA
+EventIn プロジェクトでデザインシステムを推進する傍ら、自身の研鑽としてもプロフィールサイトのデザインシステムを構築しています。
+
+2023 年初頭、個人ブログのリニューアルに伴い、Nuxt から deno へ技術スタックを更新しました。
+Node.js というエコシステムに限らず、deno というエコシステムを理解しなければいけない使命を感じ、その判断に至っております。
+
+また開発環境周辺は日常的にチェックしており、プロジェクト内でも常々監視する役割を担っております。
+そのことから DevOps をはじめ、セキュリティの学習も欠かさず行っています。
+
+- デザインシステム
 - deno
+- DevOps
 - Security (XSS, SRI, etc)
 - Server (Scala)
 - API Design (GraphQL)
 
 ### エディタ
+VueFes 並びに FlutterKaigi ウェブサイトなど OSS のプロダクトでリードさせていただいています。
+メンバーの VS Code 利用状況を踏まえ、自身もそれに合わせて VS Code に慣らしていきました。
+
+今では VS Code の方が長く使用させていただいております。
+
+- Microsoft: VS Code
 - JetBrains: IntelliJ IDEA (Ultimate) / Android Studio
-- Microsoft: VSCode
 - Apple: Xcode
 
 ### その他
@@ -119,47 +117,48 @@ pdf_options:
 
 #### SOFTWARE DESIGN 技術評論社 2022/10 月号
 
-- VS Code の「Git & GitHub 連携で役立つ機能」
-  - VS Code Meetup オーガナイザーのご縁を機に初めて執筆することとなった取り組みです。
+VS Code の「Git & GitHub 連携で役立つ機能」と称して、VS Code Meetup オーガナイザーのご縁を機に初めて執筆することとなった取り組みになります。
 
 ### 登壇、LT
 
-#### VS Code Conference JP 2021 プレイベント / 2021.11.01
+なお、プロジェクト内 (社内) の勉強会は含まず、いずれも外部の public な勉強会となります。
 
-- VSCondeCon JP 2021 の内幕
-  - VS Code Meetup 史上初めて運用することとなった公式ウェブサイト製作に自ら携わった取り組みについて話した。
+#### React で LIFF アプリを作ろう (設計重視編) / 2023.05.17
+昨年のハンズオンに続いて、中級者以上を対象に React のカスタムフックを使用して LIFF アプリを使うためのハンズオンを開催、執筆・登壇しました。
+
+### PWA Night #40 / 2022.06.15
+Google I/O 2022 と WWDC 2022 の Recap として、それぞれの振り返りを話しました。
+
+#### React (Vite) で LIFF アプリを作ろう / 2022.03.03
+初学者を対象に LINE front-end framework を React 上で使うためのハンズオンを開催、執筆・登壇しました。
+
+#### VS Code Conference JP 2021 プレイベント / 2021.11.01
+VSCondeCon JP 2021 の内幕として VS Code Meetup 史上初めて運用することとなった公式ウェブサイト製作に自ら携わった取り組みについて話しました。
 
 #### ジャムジャム　Jamstack #2 / 2021.10.28
-- Github issues を CMS として扱う
-  - 平日毎朝、ゆるふわ雑談する場として開発者が語り合う「オハヨーエンジニア」を開始、その記録を確認できるようにしたウェブサイト製作について話した。
+平日毎朝、ゆるふわ雑談する場として開発者が語り合う「オハヨーエンジニア」を開始しました。
+その記録を確認できるようにするため、GitHub issues を CMS として扱えるようにしたウェブサイト製作について話しました。
 
 #### DevRel Online #3 / 2021.04.12
-- コミュニティハンズオンにおける DevRel のすゝめ
-  - Flutter 日本ユーザグループ (大阪) におけるオンラインハンズオンの取り組みを話した。
+コミュニティハンズオンにおける DevRel のすゝめとして Flutter 日本ユーザグループ (大阪) におけるオンラインハンズオンの取り組みを話しました。
 
 #### VR 勉強会 #3 / 2020.06.21
-- Slack を中心に世界は廻っている
-  - 自身の推しツールをテーマに紹介する回。自ら VR アバターも準備、個人用 Slack を勧めることを中心に話した。
+Slack を中心に世界は廻っていると称して、自身の推しツールをテーマに紹介。自ら VR アバターも準備、個人用 Slack を勧めることを中心に話しました。
 
 #### PWA night #16 / 2020.05.20
-- もっと身近にやってた PWA
-  - 直近自身が自然とこういう観点でプロジェクトを進めると知らず知らずの内に PWA 化達成できる経験を掻い摘んで話した。
+もっと身近にやってた PWA と称して、直近自身が自然とこういう観点でプロジェクトを進めると知らず知らずの内に PWA 化達成できる経験を掻い摘んで話しました。
 
 #### yumemi.vue #5 / 2020.01.23
-- Transition を実践的に使う
-  - 一般的に余計な機能のひとつと思われている Transition を Vue コンポーネントに盛り込み納品を済ませたことを中心に話した。
+Transition を実践的に使うと称して、Transition を Vue コンポーネントに盛り込み納品を済ませたことを中心に話しました。
 
 #### v-okinawa #3 / 2019.12.16
-- Composition API 勘所など
-  - 来る Vue 3。その中でも一番の話題 Composition API の使い方を絡めて話した。
+来る Vue 3。その中でも一番の話題 Composition API の使い方を絡めて話しました。
 
 #### v-kansai #12 / 2019.12.06
-- 2019 年を振り返る
-  - 丸一年、コミュニティ v-kansai を運営してきたことを始め自身の振り返りを話した。
+丸一年、コミュニティ v-kansai を運営してきたことを始め自身の振り返りを話しました。
 
 #### CaT vol.7 / 2019.08.16
-- Vue CLI テスト Tips 集
-  - これまでフロントエンドのユニットテストを導やってこなかった自身自ら、気を遣ったテストする時の観点について話した。
+Vue CLI テスト Tips 集と称して、これまでフロントエンドのユニットテストを導やってこなかった自身自ら、気を遣ったテストする時の観点について話した。
 
 <!--
 #### v-kansai #4 / 2019.03.20
@@ -183,44 +182,101 @@ pdf_options:
 
 ## OSS
 
-### FlutterKaigi 2021
-日本で初めて Flutter をテーマに扱うテックカンファレンス FlutterKaigi 2021 の開催にあたって、私自身はそのティザーサイト製作をメインで担当した。
+### Vue Fes Japan 2023
+昨年に続き Vue.js をテーマに扱うテックカンファレンス Vue Fes 2023 の開催にあたって、私自身はそのティザーサイトのリードを担当しました。
 
 #### 主な技術スタック
-- Flutter
+- JavaScript フレームワーク Nuxt 3
+- Pinceau
+- 問い合わせフォームに Newt (FormApp)
+- ホスティング先に Netlify
+
+### VS Code Conference JP 2022-2023
+2021 年と大きく違うのは、VS Code Conference 用に共通コンポーネント化を目指している点になります。
+
+#### 主な技術スタック
+- JavaScript フレームワーク Next.js (SSG)
+- ホスティング先に GitHub Pages
+
+### FlutterKaigi 2022
+Flutter をテーマに扱うテックカンファレンス FlutterKaigi 2022 の開催にあたって、私自身はそのティザーサイトのリードを担当しました。
+2021 年と大きく違うのはスケジュール管理へ注力、各スタッフへ積極的にアサインしました。
+
+#### 主な技術スタック
+- モバイルアプリケーションフレームワーク Flutter
 - Flutter for Web (PWA)
-- Firebase hosting
+- ホスティング先に GitHub Page
+- (for preview) Firebase hosting
+- (for preview) Codemagic Static Pages
+
+### Vue Fes Japan Online 2022
+Vue.js をテーマに扱うテックカンファレンス Vue Fes 2022 の開催にあたって、私自身はそのティザーサイトのリードを担当しました。
+
+#### 主な技術スタック
+- JavaScript フレームワーク Nuxt (Bridge)
+- Tailwind CSS
+- スポンサーのデータ管理に Newt
+- ホスティング先に Netlify
+
+### Rev Up 2022 (LINE Developers)
+LINE Developers 主催のテックカンファレンス Rev Up 2022 の開催にあたって、私自身はそのティザーサイトの製作を担当しました。
+LINE front-end framework で LINE ログインを実現している点は、他のテックカンファレンスには無い特徴となります。
+
+#### 主な技術スタック
+- JavaScript フレームワーク SvelteKit
+- スピーカーやスポンサーのデータ管理に microCMS
+- ホスティング先に Netlify
 
 ### VS Code Conference JP 2021
 これまでの VSCode Conference JP と違って、初めてティザーサイトを製作する機運が高まったことを受けその製作をメインで担当した。
 
 #### 主な技術スタック
-- Next.js (SSG)
-- Github Pages
+- JavaScript フレームワーク Next.js (SSG)
+- ホスティング先に GitHub Pages
+
+### FlutterKaigi 2021
+日本で初めて Flutter をテーマに扱うテックカンファレンス FlutterKaigi 2021 の開催にあたって、私自身はそのティザーサイト製作を担当しました。
+
+#### 主な技術スタック
+- モバイルアプリケーションフレームワーク Flutter
+- Flutter for Web (PWA)
+- ホスティング先に GitHub Page
+- (for preview) Firebase hosting
 
 ## プライベートワーク
 
 ### Yuma Kitamura - Web Developer
-技術ブログと切り分けて自身を紹介するため、2020 年 03 月に開設した当プロフィールサイト。社外向けのコミュニティを運営する中で自身は何たる人物か紹介する場面が増え 2020 年 02 月プロフィールサイトの製作を開始した。
+技術ブログと切り分けて自身を紹介するため、2020 年 03 月に開設した当プロフィールサイト。
+社外向けのコミュニティを運営する中で自身は何たる人物か紹介する場面が増え 2020 年 02 月プロフィールサイトの製作を開始しました。
 
 #### 主な技術スタック
-- Gatsby.js (SSG)
+- JavaScript フレームワーク Next.js (SSG)
 - Stripe + AWS Lambda
 - AWS S3 + Cloudfront
 
-### Web猫ブログ
-知見を発信するため、2018 年 10 月に開設した個人ブログ。 2018 年 09 月お誘いを受け登壇に初めて挑戦して、その登壇した内容を文字情報に書き起こすため技術ブログの製作を開始した。
+#### 製作開始当時の主な技術スタック
+- JavaScript フレームワーク Gatsby.js (SSG)
+
+### 個人ブログ
+知見を発信するため、2018 年 10 月に開設した個人ブログ。
+2018 年 09 月お誘いを受け登壇に初めて挑戦して、その登壇した内容を文字情報に書き起こすため技術ブログの製作を開始しました。
 
 #### 主な技術スタック
-- Nuxt.js (SSR)
+- deno
+- ホスティング先 deno deploy
+- ローカルで執筆し、公開したいタイミングに GitHub へ push する
+  - 書き味は Zenn の良さを取り入れた
+
+#### 製作開始当時の主な技術スタック
+- JavaScript フレームワーク Nuxt.js (SSR)
 - CMS に Contentful を使う
 - ECS へ push するのに Circle CI を使う
-- Pull Request のチェックに Github Actions を使う
 - AWS ECS / Fargate
 
 ### その他成果物
-- `新型コロナウィルス 現況`
-  - 厚生労働省や首相官邸のオープンデータをスクレイピングして日々 COVID19 の現況可視化を行う Web サイト (Nuxt.js 製) を製作・運用している。
+「新型コロナウィルス現況」を製作・運用について。
+厚生労働省や首相官邸のオープンデータをスクレイピングして日々 COVID19 の現況可視化を行う Web サイト (Nuxt.js 製) を製作・運用していました。
+新型コロナウィルス 5 類へ引き下げたことに伴い、2023 年 05 月をもってその更新を停止しました。
 
 ## 職務経歴
 
