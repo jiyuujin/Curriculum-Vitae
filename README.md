@@ -1,4 +1,6 @@
 ---
+layout: default
+title: 職務経歴トップ
 stylesheet: ./src/main.css
 body_class: markdown-body
 pdf_options:
@@ -19,7 +21,7 @@ pdf_options:
 |GitHub|https://github.com/jiyuujin|
 |GitLab|https://gitlab.com/yuma_kitamura|
 |BitBucket|https://bitbucket.org/yuma_kitamura|
-|Twitter|https://twitter.com/jiyuujinlab|
+|Twitter|https://twitter.com/jiyuujin_dev|
 |YOUTRUST|https://youtrust.jp/users/yuukit|
 |Wantedly|https://www.wantedly.com/users/101311859|
 |Connpass|https://connpass.com/user/jiyuujin/|
