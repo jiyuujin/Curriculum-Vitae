@@ -16,19 +16,48 @@ pdf_options:
 2023 年 06 月 06 日更新。
 
 ## 基本情報
-|key|value|
-|---|-----|
-|Name|<ruby><rb>北村　勇磨<rb><rt>きたむら　ゆうま</rt></ruby>|
-|Profile|Web Developer - Yuma Kitamura<br>https://yuma-kitamura.nekohack.me/|
-|Blog|個人ブログ<br>https://blog.nekohack.me/|
-|GitHub|https://github.com/jiyuujin|
-|GitLab|https://gitlab.com/yuma_kitamura|
-|BitBucket|https://bitbucket.org/yuma_kitamura|
-|Twitter|https://twitter.com/jiyuujin_dev|
-|YOUTRUST|https://youtrust.jp/users/yuukit|
-|Wantedly|https://www.wantedly.com/users/101311859|
-|Connpass|https://connpass.com/user/jiyuujin/|
-|Slides|https://slides.com/jiyuujin|
+<ul class="table">
+<li>
+<span class="title">Name</span>
+<span class="detail"><ruby>北村　勇磨<rt>きたむら　ゆうま</rt></ruby></span>
+</li>
+<li>
+<span class="title">Profile</span>
+<span class="detail">https://yuma-kitamura.nekohack.me/</span>
+</li>
+<li>
+<span class="title">Blog</span>
+<span class="detail">https://blog.nekohack.me/</span>
+</li>
+<li>
+<span class="title">GitHub</span>
+<span class="detail">https://github.com/jiyuujin</span>
+</li>
+<li>
+<span class="title">BitBucket</span>
+<span class="detail">https://bitbucket.org/yuma_kitamura</span>
+</li>
+<li>
+<span class="title">Twitter</span>
+<span class="detail">https://twitter.com/jiyuujin_dev</span>
+</li>
+<li>
+<span class="title">YOUTRUST</span>
+<span class="detail">https://youtrust.jp/users/yuukit</span>
+</li>
+<li>
+<span class="title">Wantedly</span>
+<span class="detail">https://www.wantedly.com/users/101311859</span>
+</li>
+<li>
+<span class="title">connpass</span>
+<span class="detail">https://connpass.com/user/jiyuujin/</span>
+</li>
+<li>
+<span class="title">Slides</span>
+<span class="detail">https://slides.com/jiyuujin</span>
+</li>
+</ul>
 
 ### 長所・強み
 - エンジニア業務の他、設計やデザインなどにも理解・関心がある

@@ -110,3 +110,24 @@
     padding: 0 16px;
     margin-bottom: 16px;
 }
+
+.table {
+    list-style: none;
+    display: grid;
+    column-gap: 4px;
+    width: 100%;
+}
+
+.table li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.table .title {
+    width: 20%;
+}
+
+.table .detail {
+    width: 80%;
+}
