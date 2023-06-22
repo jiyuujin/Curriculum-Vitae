@@ -2,9 +2,9 @@
   "name": "curriculum-vitae",
   "version": "0.1.0",
   "scripts": {
-    "lint": "textlint ./README.md ./CHANGELOG.md",
-    "lint:fix": "textlint ./README.md ./CHANGELOG.md --fix",
-    "export": "md-to-pdf ./README.md"
+    "lint": "textlint ./index.markdown ./CHANGELOG.md",
+    "lint:fix": "textlint ./index.markdown ./CHANGELOG.md --fix",
+    "export": "md-to-pdf ./index.markdown"
   },
   "devDependencies": {
     "@nekohack/normalize.css": "1.2.1",
