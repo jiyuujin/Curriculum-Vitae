@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## `2023/06/22`
+
+### [feat]
+- [ウェブサイト](https://jiyuujin.github.io/Curriculum-Vitae/) でも閲覧できるよう、Jekyll と GitHub Pages をセットアップ
+
 ## `2023/06/06`
 
 ### [feat]
