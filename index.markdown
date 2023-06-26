@@ -117,14 +117,14 @@ npm プラグインとしてというよりかは、プロダクトの位置付�
 ### Studying
 EventIn プロジェクトでデザインシステムを推進する傍ら、自身の研鑽としてもプロフィールサイトのデザインシステムを構築しています。
 
-2023 年初頭、個人ブログのリニューアルに伴い、Nuxt から deno へ技術スタックを更新しました。
-Node.js というエコシステムに限らず、deno というエコシステムを理解しなければいけない使命を感じ、その判断に至っております。
+2023 年初頭、個人ブログのリニューアルに伴い、Nuxt (Vue) から Lume (Deno) へ技術スタックを更新しました。
+Node.js というエコシステムに限らず、Deno というエコシステムを理解しなければいけない使命を感じ、その判断に至っております。
 
 また開発環境周辺は日常的にチェックしており、プロジェクト内でも常々監視する役割を担っております。
 そのことから DevOps をはじめ、セキュリティの学習も欠かさず行っています。
 
 - デザインシステム
-- deno
+- Deno
 - DevOps
 - Security (XSS, SRI, etc)
 - Server (Scala)
@@ -151,9 +151,11 @@ VueFes 並びに FlutterKaigi ウェブサイトなど OSS のプロダクトで
 
 #### SOFTWARE DESIGN 技術評論社 2022/10 月号
 
-VS Code の「Git & GitHub 連携で役立つ機能」と称して、VS Code Meetup オーガナイザーのご縁を機に初めて執筆することとなった取り組みになります。
+VS Code の「Git & GitHub 連携で役立つ機能」と称して、VS Code Meetup オーガナイザーのご縁を機に初めて執筆しました。
 
 ### 登壇、LT
+
+直近 3 年の間、登壇させていただく機会があったものに限ります。
 
 なお、プロジェクト内 (社内) の勉強会は含まず、いずれも外部の public な勉強会となります。
 
@@ -176,6 +178,8 @@ VSCondeCon JP 2021 の内幕として VS Code Meetup 史上初めて運用する
 #### DevRel Online #3 / 2021.04.12
 コミュニティハンズオンにおける DevRel のすゝめとして Flutter 日本ユーザグループ (大阪) におけるオンラインハンズオンの取り組みを話しました。
 
+<!-- MEMO: 3 年以上前は時系列上、古いので割愛させていただきます -->
+<!--
 #### VR 勉強会 #3 / 2020.06.21
 Slack を中心に世界は廻っていると称して、自身の推しツールをテーマに紹介。自ら VR アバターも準備、個人用 Slack を勧めることを中心に話しました。
 
@@ -194,15 +198,14 @@ Transition を実践的に使うと称して、Transition を Vue コンポー�
 #### CaT vol.7 / 2019.08.16
 Vue CLI テスト Tips 集と称して、これまでフロントエンドのユニットテストを導やってこなかった自身自ら、気を遣ったテストする時の観点について話した。
 
-<!--
 #### v-kansai #4 / 2019.03.20
-[Web猫ブログに型安全を](https://master.d1kgb4480wljkh.amplifyapp.com/)
+[個人ブログに型安全を](https://master.d1kgb4480wljkh.amplifyapp.com/)
 
 #### v-kansai #3 / 2019.02.28
-[Web猫ブログにGraphQLを導入してみた話](https://master.d1k81nysz2qoq8.amplifyapp.com/)
+[個人ブログにGraphQLを導入してみた話](https://master.d1k81nysz2qoq8.amplifyapp.com/)
 
 #### Nuxt meetup #7 / 2019.02.18
-[Web猫ブログで問い合わせにFirestoreを採用した話](https://master.d1k6flsnxj32sh.amplifyapp.com/)
+[個人ブログで問い合わせにFirestoreを採用した話](https://master.d1k6flsnxj32sh.amplifyapp.com/)
 
 #### Laravel/Vue.js #7 / 2019.01.31
 [コンシューマ向けVue SPAでプロダクトを開発して得た知見](https://master.d1c3mho10hxrnp.amplifyapp.com/)
@@ -211,106 +214,65 @@ Vue CLI テスト Tips 集と称して、これまでフロントエンドのユ
 [Contentful製ブログでGoogle Adsenseが使えるようになるまで](https://master.d1k61oei78g67d.amplifyapp.com/)
 
 #### v-kansai #1 / 2018.12.20
-- [Vue Fes 2018と振り返り](https://master.d1jx3kphbrrzqg.amplifyapp.com/)
+[Vue Fes 2018と振り返り](https://master.d1jx3kphbrrzqg.amplifyapp.com/)
 -->
 
 ## OSS
 
-### Vue Fes Japan 2023
-昨年に続き Vue.js をテーマに扱うテックカンファレンス Vue Fes 2023 の開催にあたって、私自身はそのティザーサイトのリードを担当しました。
-
-#### 主な技術スタック
-- JavaScript フレームワーク Nuxt 3
-- Pinceau
-- 問い合わせフォームに Newt (FormApp)
-- ホスティング先に Netlify
-
-### VS Code Conference JP 2022-2023
-2021 年と大きく違うのは、VS Code Conference 用に共通コンポーネント化を目指している点になります。
-
-#### 主な技術スタック
-- JavaScript フレームワーク Next.js (SSG)
-- ホスティング先に GitHub Pages
-
-### FlutterKaigi 2022
-Flutter をテーマに扱うテックカンファレンス FlutterKaigi 2022 の開催にあたって、私自身はそのティザーサイトのリードを担当しました。
-2021 年と大きく違うのはスケジュール管理へ注力、各スタッフへ積極的にアサインしました。
+### FlutterKaigi 関連
+Flutter をテーマに扱うテックカンファレンス FlutterKaigi の開催にあたって、私自身はそのティザーサイトのリードを担当させていただきました。
+昨年まではその設計・実装に、今年はコアスタッフとしてのリーダーとして、時間・タスク管理に専念しています。
 
 #### 主な技術スタック
 - モバイルアプリケーションフレームワーク Flutter
-- Flutter for Web (PWA)
-- ホスティング先に GitHub Page
+- ホスティング先 GitHub Page
 - (for preview) Firebase hosting
 - (for preview) Codemagic Static Pages
 
-### Vue Fes Japan Online 2022
-Vue.js をテーマに扱うテックカンファレンス Vue Fes 2022 の開催にあたって、私自身はそのティザーサイトのリードを担当しました。
+### VueJS-JP 関連
+2019 年の台風による中止を側から見て、少しでも OSS や技術コミュニティの運営者としての立ち位置から、お手伝いしたいと考えコアスタッフに入らせていただきました。
+2022 年の開催に続いて、Vue Fes 2023 の開催にあたって、私自身はそのティザーサイトのリードを担当しています。
 
 #### 主な技術スタック
-- JavaScript フレームワーク Nuxt (Bridge)
-- Tailwind CSS
-- スポンサーのデータ管理に Newt
-- ホスティング先に Netlify
+- JavaScript フレームワーク Nuxt.js (SSG)
+- ホスティング先 Netlify
 
-### Rev Up 2022 (LINE Developers)
-LINE Developers 主催のテックカンファレンス Rev Up 2022 の開催にあたって、私自身はそのティザーサイトの製作を担当しました。
-LINE front-end framework で LINE ログインを実現している点は、他のテックカンファレンスには無い特徴となります。
-
-#### 主な技術スタック
-- JavaScript フレームワーク SvelteKit
-- スピーカーやスポンサーのデータ管理に microCMS
-- ホスティング先に Netlify
-
-### VS Code Conference JP 2021
-これまでの VSCode Conference JP と違って、初めてティザーサイトを製作する機運が高まったことを受けその製作をメインで担当した。
+### VS Code Conference JP 関連
+これまでの VS Code Conference JP と違って、初めてティザーサイトを製作する機運が高まったことを受け、2021 年にその設計・実装を担当させていただきました。
+また、VS Code Conference JP 用に共通コンポーネント化を目指すため、複数年のモノレポ化にも取り組んでいます。
 
 #### 主な技術スタック
 - JavaScript フレームワーク Next.js (SSG)
-- ホスティング先に GitHub Pages
+- ホスティング先 GitHub Pages
 
-### FlutterKaigi 2021
-日本で初めて Flutter をテーマに扱うテックカンファレンス FlutterKaigi 2021 の開催にあたって、私自身はそのティザーサイト製作を担当しました。
+### LINE Developers 関連
+LINE Developers 主催のテックカンファレンス Rev Up 2022 の開催にあたって、私自身はそのティザーサイトの製作を担当させていただきました。
+他のテックカンファレンスには無い特徴として、LINE front-end framework を利用して、ウェブサイト内で LINE ログインを実現している点が挙げられます。
 
 #### 主な技術スタック
-- モバイルアプリケーションフレームワーク Flutter
-- Flutter for Web (PWA)
-- ホスティング先に GitHub Page
-- (for preview) Firebase hosting
+- JavaScript フレームワーク SvelteKit (SSG)
+- ホスティング先 Netlify
 
 ## プライベートワーク
 
 ### Yuma Kitamura - Web Developer
-技術ブログと切り分けて自身を紹介するため、2020 年 03 月に開設した当プロフィールサイト。
-社外向けのコミュニティを運営する中で自身は何たる人物か紹介する場面が増え 2020 年 02 月プロフィールサイトの製作を開始しました。
+自身を紹介するため、個人ブログと切り分け 2020 年 03 月に個人サイトの運営を開始、2022 年春先にかけモノレポ化移行と合わせ Next.js 製へリプレースを進めました。
+技術カンファレンスをオーガナイズする中で自身は何たる人物か紹介する場面が増えていることが挙げられます。
 
 #### 主な技術スタック
 - JavaScript フレームワーク Next.js (SSG)
-- Stripe + AWS Lambda
-- AWS S3 + Cloudfront
-
-#### 製作開始当時の主な技術スタック
-- JavaScript フレームワーク Gatsby.js (SSG)
+- ホスティング先 AWS S3 + Cloudfront
 
 ### 個人ブログ
-知見を発信するため、2018 年 10 月に開設した個人ブログ。
-2018 年 09 月お誘いを受け登壇に初めて挑戦して、その登壇した内容を文字情報に書き起こすため技術ブログの製作を開始しました。
+知見を発信するため、Nuxt 製のウェブログとして 2018 年 10 月より個人ブログの運営を開始、2023 年春先にかけ Lume 製へリプレースを進めました。
+そもそも個人ブログを開始したきっかけは、2018 年 09 月お誘いを受け登壇に初めて挑戦、文字情報に書き起こしたこととなります。
+そうして登壇を経験した内容をためつつ、毎月少なくともひとつは技術の知見を発信できるよう心がけています。
 
 #### 主な技術スタック
-- deno
-- ホスティング先 deno deploy
+- Deno フレームワーク Lume (SSG)
+- ホスティング先 GitHub Pages
 - ローカルで執筆し、公開したいタイミングに GitHub へ push する
   - 書き味は Zenn の良さを取り入れた
-
-#### 製作開始当時の主な技術スタック
-- JavaScript フレームワーク Nuxt.js (SSR)
-- CMS に Contentful を使う
-- ECS へ push するのに Circle CI を使う
-- AWS ECS / Fargate
-
-### その他成果物
-「新型コロナウィルス現況」を製作・運用について。
-厚生労働省や首相官邸のオープンデータをスクレイピングして日々 COVID19 の現況可視化を行う Web サイト (Nuxt.js 製) を製作・運用していました。
-新型コロナウィルス 5 類へ引き下げたことに伴い、2023 年 05 月をもってその更新を停止しました。
 
 ## 職務経歴
 
