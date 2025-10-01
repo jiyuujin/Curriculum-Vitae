@@ -4,7 +4,7 @@
     "preset-nekohack-inc": true,
     "preset-ja-technical-writing": {
       "sentence-length": {
-        "max": 90
+        "max": 180
       },
       "max-comma": {
         "max": 8
