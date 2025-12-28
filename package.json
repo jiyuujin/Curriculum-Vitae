@@ -2,13 +2,13 @@
   "name": "curriculum-vitae",
   "version": "0.1.0",
   "scripts": {
-    "lint": "textlint ./index.markdown ./CHANGELOG.md",
-    "lint:fix": "textlint ./index.markdown ./CHANGELOG.md --fix",
-    "export": "md-to-pdf ./index.markdown"
+    "lint": "textlint ./README.md ./CHANGELOG.md",
+    "lint:fix": "textlint ./README.md ./CHANGELOG.md --fix",
+    "export": "md-to-pdf --config-file ./md-to-pdf.config.js ./README.md"
   },
   "devDependencies": {
     "@nekohack/normalize.css": "1.2.1",
-    "md-to-pdf": "3.3.1",
+    "md-to-pdf": "5.2.5",
     "textlint": "12.2.1",
     "textlint-rule-preset-ja-technical-writing": "7.0.0",
     "textlint-rule-preset-nekohack-inc": "git+https://github.com/nekohack/textlint-rule-preset-nekohack-inc.git",
